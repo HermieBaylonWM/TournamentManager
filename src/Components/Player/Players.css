@@ -1,0 +1,79 @@
+.players-table-head {
+  background-color: #abc4ff;
+  color: #abc4ff;
+  border: solid black;
+}
+
+.players-title {
+  text-align: center;
+}
+
+.players-container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.players-last-row {
+  width: 50px;
+}
+
+.players-last-row div {
+  visibility: hidden;
+}
+
+.players-row:hover {
+  background-color: #e2eafc;
+}
+
+.players-delete-icon {
+  font-size: 25px;
+}
+
+.players-update-icon {
+  font-size: 25px;
+}
+
+.players-delete-icon:hover {
+  color: red;
+}
+
+.players-update-icon:hover {
+  color: green;
+}
+
+.players-delete-update div {
+  margin-top: 3px;
+}
+
+.players-row:hover > .players-last-row div {
+  visibility: visible;
+}
+
+.players-modal-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.players-modal-update-title {
+  text-align: center;
+}
+
+.players-modal-update-name {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.players-modal-update-name > * {
+  margin-right: 10px;
+}
+
+.players-modal-update-power {
+  display: flex;
+}
+
+.players-modal-update-power > * {
+  margin-right: 10px;
+}
