@@ -1,3 +1,4 @@
+//import "./AddPlayer.css";
 import "./AddPlayer.css";
 import * as React from "react";
 import Box from "@mui/material/Box";
@@ -10,15 +11,15 @@ import axios from "axios";
 
 function AddPlayer() {
   const [inputName, setInputname] = useState("");
-  const [inputPower, setInputPower] = useState("");
+  const [inputLevel, setInputLevel] = useState("");
   const [confirmation, setConfirmation] = useState("");
 
   let extractName = (e) => {
     setInputname(e.target.value);
   };
 
-  let extractPower = (e) => {
-    setInputPower(e.target.value);
+  let extractLevel = (e) => {
+    setInputLevel(e.target.value);
   };
 
   const baseURL = "http://localhost:5087/api/addplayer";
@@ -26,11 +27,11 @@ function AddPlayer() {
   const submitPlayer = () => {
     axios.post(baseURL, {
       name: inputName,
-      power: inputPower,
+      power: inputLevel,
     });
     setConfirmation(`${inputName} has been added!!`);
     setInputname("");
-    setInputPower("");
+    setInputLevel("");
   };
 
   return (
@@ -53,11 +54,11 @@ function AddPlayer() {
             label="Name"
           />
           <TextField
-            value={inputPower}
-            onChange={extractPower}
+            value={inputLevel}
+            onChange={extractLevel}
             required
             id="outlined-required"
-            label="Power"
+            label="Skill Level"
           />
           <TextField
             disabled

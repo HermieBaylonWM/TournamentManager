@@ -1,0 +1,62 @@
+.add-tournament--title {
+  text-align: center;
+}
+
+.add-tournament--info {
+  margin: 20px;
+}
+
+.add-tournament--info > * {
+  width: 600px;
+}
+
+.add-tournament--info > * {
+  display: flex;
+}
+
+.tournament-name > h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tournament-type > h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tournament-number-of-participants > h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tournament-seeding > h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tournament-participants > h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tournament-participants {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tournament-participants-list {
+  height: 300px;
+  width: 200px;
+  overflow: scroll;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.add-tournament-create-button {
+  box-sizing: border-box;
+  width: 500px;
+}
+
+.tournament-participants-row {
+  display: flex;
+}
