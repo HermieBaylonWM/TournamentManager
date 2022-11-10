@@ -1,0 +1,20 @@
+.bracket-container {
+  display: flex;
+}
+
+.bracket {
+  display: block;
+  height: 200px;
+}
+
+.play-match-button-container {
+  margin-top: 30px;
+}
+
+.play-match-button:hover {
+  color: green;
+}
+
+/* .bracket > * {
+  display: flex;
+} */

@@ -1,0 +1,56 @@
+/* .bracket {
+}
+
+.bracket-last-8 {
+  background-color: beige;
+}
+
+.bracket-last-4 {
+  background-color: gray;
+} */
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+.bracket-container {
+  margin: 10px;
+}
+
+.row {
+}
+.bracket-last-16 {
+  float: left;
+  width: 20%;
+}
+.bracket-last-8 {
+  float: left;
+  width: 20%;
+}
+.bracket-last-4 {
+  float: left;
+  width: 20%;
+}
+.bracket-last-2 {
+  float: left;
+  width: 20%;
+}
+.bracket-last-1 {
+  float: left;
+  width: 20%;
+}
+.bracket-last-8 > * {
+  margin-top: 120px;
+  margin-bottom: 220px;
+}
+.bracket-last-4 > * {
+  margin-top: 320px;
+  margin-bottom: 640px;
+}
+.bracket-last-2 > * {
+  margin-top: 740px;
+}
+.bracket-last-1 > * {
+  margin-top: 760px;
+}
